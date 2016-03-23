@@ -1,0 +1,21 @@
+/*ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}*/
+
+.categories {
+  padding-top: 2vw;
+  font-size: 3.5vw;
+  display: flex;
+  justify-content: center;
+}
+
+#img {
+  text-align: center;
+  padding-top: 5vw;
+}
+
+footer {
+  text-align: center;
+}

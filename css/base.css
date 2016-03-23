@@ -1,0 +1,20 @@
+body {
+  background-image: url('../assets/wall2.jpg');
+}
+
+* {
+  font-family: Oswald;
+  text-decoration: none;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+li {
+  font-size: 1vw;
+}
+
+
+nav {
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+}
