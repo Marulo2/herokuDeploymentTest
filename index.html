@@ -14,7 +14,7 @@
     <script id="projects-template" type="text/x-handlebars-template">
       <article class="clearfix"  data-category="{{category}}" data-author="{{author}}">
          <header>
-             <h1>{{title}}</h1>
+             <h6 class="title">{{title}}</h6>
              <div class="byline">
              </div>
          </header>
@@ -128,13 +128,11 @@
     <script src="js/aboutController.js"></script>
     <script src="js/schoolController.js"></script>
     <script src="js/workController.js"></script>
-    <script src="js/githubToken.js"></script>
     <script src="js/repoView.js"></script>
     <script src="js/repo.js"></script>
     <script src="js/projectController.js"></script>
     <script src="js/routes.js"></script>
     <script>
-      Portfolio.fetchProjects(tabSlide.initProjects);
       Portfolio.fetchSchool(tabSlide.initSchool);
       Portfolio.fetchWork(tabSlide.initWork);
     </script>
